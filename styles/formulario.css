@@ -12,14 +12,14 @@
     vertical-align: middle;
 }
 
-body > div > div > div.col-l-9.col-m-12.col-s-12.centrar.cont-encriptador > div.img-alura > p{
+body>div>div>div.col-l-9.col-m-12.col-s-12.centrar.cont-encriptador>div.img-alura>p {
     color: var(--dark-blue-dark-blue-300, #0A3871);
     font-size: 40px;
     font-family: Inter;
     font-weight: bold;
     letter-spacing: 6px;
     text-align: center;
-    
+
 }
 
 
@@ -42,6 +42,24 @@ body > div > div > div.col-l-9.col-m-12.col-s-12.centrar.cont-encriptador > div.
     height: 100%;
 }
 
+.contenedorLabel {
+    display: flex;
+    align-items: center;
+    text-align: left;
+    margin-left: 10px;
+    color: var(--gray-gray-400, #495057);
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    opacity: 0.800000011920929;
+}
+
+.iconInfo{
+    margin-right: 5px;
+}
+
 .cont-respuesta-default {
     padding: 10px;
 }
@@ -61,7 +79,7 @@ body>div>div>div.col-l-9.col-m-12.col-s-12.centrar.cont-encriptador {
 
 #txtAreaTexto {
     margin: 12px;
-    height: 700px;
+    height: 650px;
     resize: none;
     color: var(--dark-blue-dark-blue-300, #0A3871);
     font-size: 32px;

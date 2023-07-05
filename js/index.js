@@ -53,6 +53,10 @@ function desencriptar() {
 
     console.log("Mensaje encriptado: ", mensajeEncriptado);
     console.log("Mensaje desencriptado: ", mensajeDesencriptado);
+    txtAreaMensaje.style.display = 'block';
+    btnCopiar.style.display = 'block';
+    imgRespuesta.style.display = 'none';
+    contenedorInfoP.style.display = 'none';
     txtAreaMensaje.value = mensajeDesencriptado;
 }
 
@@ -75,6 +79,10 @@ function copiar() {
     txtAreaMensaje.value = '';
     txtAreaTexto.value = '';
     alert('Texto copiado');
+    imgRespuesta.style.display = 'block';
+    contenedorInfoP.style.display = 'block';
+    btnCopiar.style.display = 'none';
+    txtAreaMensaje.style.display = 'none';
 }
 
 document.addEventListener('DOMContentLoaded', function () {
