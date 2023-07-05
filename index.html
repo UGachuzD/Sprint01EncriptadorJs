@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="styles/responsividad.css">
+  <link rel="stylesheet" type="text/css" href="styles/index.css">
+  <link rel="stylesheet" type="text/css" href="styles/respuesta.css">
+  <link rel="stylesheet" type="text/css" href="styles/formulario.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap" rel="stylesheet">
+  <script src="js/index.js"></script>
+  <title>Encriptador de texto</title>
+</head>
+
+<body>
+  <div class="container">
+    <div class="row">
+      <!-- Contenedor de encriptador-->
+      <div class="col-l-9 col-m-12 col-s-12 centrar cont-encriptador">
+        <div class="img-alura">
+          <p class="parrafo-ningun alura"><img id="iconAlura" src="src/img/Vector.png" alt="Icono Alura">ALURA Challenge encriptador</p>
+        </div>
+        <div class="formEncriptacion">
+          <textarea id="txtAreaTexto" class="col-l-8 col-m-12 col-s-12" id="msj" cols="30" rows="10" placeholder="Ingrese el texto aquí"></textarea>
+          <label class="lblInfo" for=""><img src="src/img/bi_exclamation-circle-fill.svg"/> letras minúsculas y sin acentos</label>
+          <div class="row contenedorBotones">
+            <div class="col-l-6 col-m-6 col-s-12">
+              <button id="btnEncriptar" class="btnEncriptar">Encriptar</button>
+            </div>
+            <div class="col-l-6 col-m-6 col-s-12">
+              <button id="btnDesencriptar" class="btnDesencriptar">Desencriptar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Contenedor de respuesta-->
+      <div class="col-l-3 col-m-12 col-s-12 centrar cont-respuesta">
+        <div class="cont-respuesta-default">
+          <textarea id="txtAreaMensaje" cols="30" rows="10"></textarea>
+          
+          <img id="imgRespuesta" src="src/img/Mono.svg" alt="Imagen persona">
+          <button id="btnCopiar" class="btnCopiar">Copiar</button>
+          <div id="contenedorInfoP">
+            <p class="parrafo-ningun">Ningún mensaje fue encontrado</p>
+            <p class="parrafo-ingresa">Ingresa el texto que desees encriptar o desencriptar.</p>
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
